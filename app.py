@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import joblib
 import os
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+from sklearn.metrics 
+import accuracy_score, confusion_matrix, classification_report
 
 # Specify the correct path to the model file
 model_path = 'random_forest_model.pkl'  # Ensure this path is correct
