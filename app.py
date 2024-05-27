@@ -34,9 +34,9 @@ else:
     # Title
     st.title("Bitcoin Transaction Fraud Detection")
 
-    # Display an image from the Downloads folder
+    # Display an image from the repository
     if os.path.exists(image_path):
-        st.image(image_path, caption='BTC Transaction', use_column_width=True)
+        st.image(image_path, caption='Bitcoin Transaction', use_column_width=True)
     else:
         st.error(f"Image file not found: {image_path}")
 
