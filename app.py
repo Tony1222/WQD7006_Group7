@@ -2,13 +2,14 @@ import streamlit as st
 import pandas as pd
 import joblib
 import os
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+from sklearn.metrics 
+import accuracy_score, confusion_matrix, classification_report
 
 # Specify the correct path to the model file
 model_path = 'random_forest_model.pkl'  # Ensure this path is correct
 
 # Path to the local image file
-image_path = 'C:/Users/Tony Tieh/Downloads/BTC_Img.jpg'
+image_path = 'BTC_Img.jpg'  # Use relative path
 
 # Function to read CSV with different encodings
 def read_csv_with_encodings(file):
