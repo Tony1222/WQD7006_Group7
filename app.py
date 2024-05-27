@@ -9,7 +9,7 @@ import accuracy_score, confusion_matrix, classification_report
 model_path = 'random_forest_model.pkl'  # Ensure this path is correct
 
 # Path to the local image file
-image_path = 'BTC_Img.jpg'  # Use relative path
+image_path = 'Latest_BTC_Img.jpg'  # Use relative path
 
 # Function to read CSV with different encodings
 def read_csv_with_encodings(file):
